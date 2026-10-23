@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
+  <rect width="32" height="32" rx="8" fill="#0b0f14"/>
+  <!-- Reticle Corner Accents -->
+  <path d="M4 8V4H8M24 4H28V8M28 24V28H24M8 28H4V24" stroke="#00e5ff" stroke-width="1.5" stroke-linecap="round"/>
+  <!-- Knee Joint Radiography Bone Motif -->
+  <!-- Femur head (top bone) -->
+  <path d="M11 9C11 7.34 12.34 6 14 6H18C19.66 6 21 7.34 21 9V13C21 14.1 19.5 15 16 15C12.5 15 11 14.1 11 13V9Z" fill="#38bdf8" opacity="0.9"/>
+  <!-- Joint space marker line -->
+  <line x1="10" y1="16.5" x2="22" y2="16.5" stroke="#00e5ff" stroke-width="1.2" stroke-dasharray="1 2"/>
+  <!-- Tibia plateau (bottom bone) -->
+  <path d="M10 18C13 18 14 19 16 19C18 19 19 18 22 18V22C22 23.66 20.66 25 19 25H13C11.34 25 10 23.66 10 22V18Z" fill="#0284c7" opacity="0.85"/>
+  <!-- Center phosphor focal point -->
+  <circle cx="16" cy="16.5" r="1.5" fill="#00e5ff"/>
+</svg>

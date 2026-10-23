@@ -1,0 +1,10 @@
+# Backend dependencies
+# Note: PyTorch, Torchvision, Pillow, NumPy, and Matplotlib are inherited
+# directly from the project's root virtual environment (.venv).
+
+fastapi>=0.115.0
+uvicorn[standard]>=0.34.0
+python-multipart>=0.0.20
+pytest>=8.0.0
+httpx>=0.28.0
+matplotlib>=3.8.0

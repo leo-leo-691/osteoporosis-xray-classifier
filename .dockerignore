@@ -1,0 +1,47 @@
+# Git and IDE
+.git
+.gitignore
+.agents
+.gemini
+.vscode
+.idea
+
+# Python virtual environment & cache
+.venv
+venv
+env
+__pycache__
+*.pyc
+*.pyo
+.pytest_cache
+
+# Node modules & temporary files
+node_modules
+frontend/node_modules
+frontend/dist
+
+# Exclude raw & processed dataset splits (large radiography files)
+data
+
+# Exclude research exploration notebooks
+notebooks
+
+# Exclude audits and duplicate packages
+FINAL_RESEARCH_PACKAGE
+osteoporosis_research_audit
+pretrained_weights
+
+# Exclude results except locked final test metrics
+results/*
+!results/final_test
+results/final_test/*
+!results/final_test/final_test_metrics.json
+
+# Exclude other models except final_locked_model.pth
+models/*
+!models/final_locked_model.pth
+
+# Documentation and temporary files
+*.docx
+*.zip
+*.log

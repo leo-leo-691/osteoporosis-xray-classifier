@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Dataset - DO NOT COMMIT
+data/raw/
+data/provenance_candidates/
+
+# Generated processed datasets
+data/processed/*.csv
+
+# Trained model files
+models/
+
+# Pretrained weights (large binary files - download separately)
+pretrained_weights/
+
+# Training outputs
+results/
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Internal research/audit folders - not for public repo
+FINAL_RESEARCH_PACKAGE/
+osteoporosis_research_audit/
+.remember/
+
+# Binary outputs and archives
+*.zip
+*.docx
+*.pth
+*.pth.part*
+
+# Frontend build artifacts (handled by frontend/.gitignore too)
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
