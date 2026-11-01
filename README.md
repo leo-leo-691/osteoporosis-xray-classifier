@@ -59,6 +59,12 @@ Batched inference (batch size 16, as in evaluate_final_test.py) reproduces final
 
 ---
 
+## Deployment
+
+To deploy the app to Hugging Face Spaces with Docker, see [DEPLOY.md](DEPLOY.md).
+
+---
+
 ## App Features
 
 1. **Analyze Page**:
