@@ -27,7 +27,7 @@ uvicorn app.main:app --reload --port 8000
 - Health Endpoint: `http://localhost:8000/api/health`
 - Locked Metrics Endpoint: `http://localhost:8000/api/metrics`
 
-To run the backend test suite:
+To run the backend test suite (from the repository root):
 ```bash
 pytest backend/tests -v
 ```
